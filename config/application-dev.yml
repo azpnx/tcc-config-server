@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: psico-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+greeting-service:
+  greeting: "DEV"
+  default-value: "Mundo"
